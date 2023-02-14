@@ -60,11 +60,11 @@ body {
   color: black;
 }
 
-#about-me {
+#landing {
   margin-top: 100px;
 }
 
-#about-me h1 {
+#landing h1 {
   font-family: "Changa", sans-serif;
   font-weight: bold;
   color: #6F5643;
@@ -75,12 +75,12 @@ body {
   color: #CC6B49;
 }
 
-#projects-section {
+#projects {
   font-family: "Changa", sans-serif; ;
   background-color: #D2A24C;
 }
 
-#projects-section h1 {
+#projects h1 {
   font-weight: bold;
   text-align: center;
   color: #ECE6C2;
@@ -97,14 +97,14 @@ body {
   object-fit: cover;
 }
 
-#contact-me-section {
+#contact {
   background-color: #73BDA8;
   font-family: "Changa", sans-serif;
   color: #6F5643;
   text-align: center;
 }
 
-#contact-me-section h2 {
+#contact h2 {
   font-weight: bold;
 }
 
@@ -112,12 +112,12 @@ body {
   background-color: #ECE6C2;
 }
 
-#contact-me-section > div > .btn {
+#contact > div > .btn {
   border-color: #6F5643;
   color: #6F5643;
 }
 
-#contact-me-section > div > .btn:hover {
+#contact > div > .btn:hover {
   border-color: #6F5643;
   background-color: #6F5643;
   color: #ECE6C2;
