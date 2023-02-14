@@ -86,3 +86,35 @@ body {
   background-color: #ECE6C2;
   color: #CC6B49;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+#contact-me-section {
+  background-color: #73BDA8;
+  font-family: "Changa", sans-serif;
+  color: #6F5643;
+  text-align: center;
+}
+
+#contact-me-section h2 {
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #ECE6C2;
+}
+
+#contact-me-section > div > .btn {
+  border-color: #6F5643;
+  color: #6F5643;
+}
+
+#contact-me-section > div > .btn:hover {
+  border-color: #6F5643;
+  background-color: #6F5643;
+  color: #ECE6C2;
+}
