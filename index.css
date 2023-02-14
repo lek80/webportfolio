@@ -1,0 +1,72 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECE6C2;
+  height: 800vh;
+}
+
+#navbar-section {
+  background-color: #D2A24C;
+  height: 50px;
+  font-family: "Changa", sans-serif;
+  box-shadow: 3px 3px 5px;
+}
+
+.navbar-dark .navbar-brand {
+  color: #6F5643;
+}
+
+
+#navbar-items a {
+  transition: all 0.3s ease;
+  color: #6F5643;
+}
+
+#navbar-items a:hover {
+  background-color: #CC6B49;
+  color: white;
+  padding: 14px;
+}
+
+.icon-bar {
+  width: 50px; /* Set a specific width */
+  background-color: #73BDA8; /* Blue background */
+  margin-top: 200px;
+  top: 50px;
+  position: sticky;
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 14px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: #6F5643; /* text color */
+  font-size: 20px; /* Increased font-size */
+  box-shadow: 5px 5px 5px;
+}
+
+.icon-bar a:hover {
+  background-color: #D2A24C; /* Add a hover color */
+  color: black;
+}
+
+#about-me {
+  margin-top: 100px;
+}
+
+#about-me h1 {
+  font-family: "Changa", sans-serif;
+  font-weight: bold;
+  color: #6F5643;
+}
+
+#about-me-content {
+  font-family: "Changa", sans-serif;
+  color: #CC6B49;
+}
