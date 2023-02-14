@@ -7,7 +7,6 @@
 
 body {
   background-color: #ECE6C2;
-  height: 800vh;
 }
 
 #navbar-section {
@@ -18,7 +17,7 @@ body {
 }
 
 .navbar-dark .navbar-brand {
-  color: #6F5643;
+  color: #ECE6C2;
 }
 
 
@@ -38,6 +37,7 @@ body {
   background-color: #73BDA8; /* Blue background */
   margin-top: 200px;
   top: 50px;
+  height: 235px;
   position: sticky;
 }
 
@@ -68,5 +68,21 @@ body {
 
 #about-me-content {
   font-family: "Changa", sans-serif;
+  color: #CC6B49;
+}
+
+#projects-section {
+  font-family: "Changa", sans-serif; ;
+  background-color: #D2A24C;
+}
+
+#projects-section h1 {
+  font-weight: bold;
+  text-align: center;
+  color: #ECE6C2;
+}
+
+.card {
+  background-color: #ECE6C2;
   color: #CC6B49;
 }
