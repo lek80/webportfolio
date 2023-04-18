@@ -19,14 +19,14 @@
 		<!-- CSS Link -->
 		<link rel="stylesheet" type="text/css" href="./index.css">
 
-		<title>Adrian Tamayo | Web Developer</title>
+		<title>Adrian Tamayo | MERN Stack Developer</title>
 
 	</head>
 	<body>
 
 		<!-- Navbar Section Start -->
 		<nav class="navbar navbar-expand navbar-dark sticky-top" id="navbar-section">
-		  <a class="navbar-brand" id="navbar-home" href="#"><img src="./images/at logo.png" width="30" height="30" class="d-inline-block align-top mr-3">ADRIAN TAMAYO</a>
+		  <a class="navbar-brand" id="navbar-home" href="#"><img src="./images/at_logo_2.png" width="30" height="30" class="d-inline-block align-top mr-3">ADRIAN TAMAYO</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -41,39 +41,56 @@
 		  </div>
 		</nav>
 				<!-- Navbar Section End -->
-		<div class="d-inline-flex">
+		<div class="d-sm-inline-flex">
 
-		<!-- Social Media Bar Start -->
-			<div class="icon-bar rounded d-none d-sm-block">
-			  <a class="active" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-			  <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-			  <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a>
-			  <a href="https://www.gmail.com/"><i class="fa-solid fa-paper-plane"></i></a>
-			</div>
-		<!-- Social Media Bar End -->
+			<!-- Social Media Bar Start -->
+				<div id="icon-bar"class="icon-bar rounded d-none d-sm-block">
+				  <a href="https://www.gmail.com/"><i class="fa-solid fa-envelope"></i></a>
+				  <a href="https://www.facebook.com/adrianlolekt"><i class="fa-brands fa-facebook-f"></i></a>
+				  <a href="https://www.linkedin.com/in/adrianlolekt/"><i class="fa-brands fa-linkedin-in"></i></a>
+				  <a href="https://github.com/lek80"><i class="fa-brands fa-github"></i></a>
+				  <a href="https://gitlab.com/lek80"><i class="fab fa-gitlab"></i></a>
+				</div>
+			<!-- Social Media Bar End -->
+
+			<!-- Social Media Bar Mobile View Start -->
+				<div id="icon-bar-alt"class="icon-bar d-block d-sm-none">
+				  <a href="https://www.gmail.com/"><i class="fa-solid fa-envelope"></i></a>
+				  <a href="https://www.facebook.com/adrianlolekt"><i class="fa-brands fa-facebook-f"></i></a>
+				  <a href="https://www.linkedin.com/in/adrianlolekt/"><i class="fa-brands fa-linkedin-in"></i></a>
+				  <a href="https://github.com/lek80"><i class="fa-brands fa-github"></i></a>
+				  <a href="https://gitlab.com/lek80"><i class="fab fa-gitlab"></i></a>
+				</div>
+			<!-- Social Media Bar Mobile View End -->
 
 		<!-- Main Content Section Start -->
 
 			<!-- About Me Section Start -->
-			<div class="d-inline-flex align-top ml-5 pt-3" id="landing">
-				<div class="row container-fluid min-vh-100">
-					<div class="col-12 offset-md-1 col-md-9 order-0">
+			<div class="container-fluid d-inline-flex align-top ml-1 ml-md-2 pt-md-2 min-vh-75" id="landing">
+				<div class="row">
+					<div class="col-12 col-lg-10 offset-lg-1 col-xl-5 text-left">
 						<h1>Hi, I'm Adrian Tamayo!</h1>
-						<img src="./images/adrian.png" class="img-fluid" class="col-12 offset-md-9 col-md-3 order-1" height="300" width="300">
-					</div>
-					<div class="col-12 offset-md-1 col-md-8 col-lg-5 text-left" id="about-me-section">
-						<div id="about-me-content">
-							<h3 class="pb-5">I'm a Mechanical Engineer turned Full-Stack Developer specializing in building and designing websites and softwares with exceptional user digital experience.</h3>
-							<h2 id="tools">Languages and Skills</h2>
-								<ul>
-									<li>HTML - Programming Basics</li>
-									<li>Bootstrap - Rapid Prototyping</li>
-									<li>Node JS - Back-end Basics</li>
+						<h3 class="pb-5">I'm a Mechanical Engineer turned Full-Stack Developer specializing in building and designing websites and softwares with exceptional user digital experience.</h3>
+						<h2 id="tools">Programming Languages and Tools</h2>
+						<h4>Web Development</h4>
+								<ul class="list-unstyled">
+									<li><button class="button"><i class="fa-brands fa-html5 fa-xl"></i> HTML5</button> <button class="button"><i class="fa-brands fa-css3-alt fa-xl"></i> CSS3</button><button class="button"><i class="fa-brands fa-bootstrap fa-xl"></i> Bootstrap</button><button class="button"><i class="fa-brands fa-square-js fa-xl"></i> JavaScript</button></li>
+									<li><button class="button"><i class="fa-solid fa-leaf fa-xl"></i> MongoDB</button><button class="button"><i class="fa-brands fa-node fa-xl"></i> Node.js</button><button class="button"><i class="fa-solid fa-cloud fa-xl"></i> REST API</button><button class="button"><i class="fa-solid fa-circle-nodes fa-xl"></i> Mongoose.js</button><button class="button"><i class="fa-solid fa-route fa-xl"></i> Express.js</button></li>
+									<li><button class="button"><i class="fa-solid fa-user-astronaut fa-xl"></i> Postman</button><button class="button"><i class="fa-solid fa-vector-square fa-xl"></i> Render</button><button class="button"> <i class="fa-brands fa-react fa-xl"></i> React</button><button class="button"><i class="fa-solid fa-square-caret-up fa-xl"></i> Vercel</button></li>
 								</ul>
-						</div>
+						<h4 class="mt-5">Data Engineering (On-Going)</h4>
+								<ul class="list-unstyled">
+									<li><button class="button"><i class="fa-brands fa-python fa-xl"></i> Python</button> <button class="button"><i class="fa-solid fa-table fa-xl"></i> Pandas</button><button class="button"><i class="fa-solid fa-cube fa-xl"></i> NumPy</button><button class="button"><i class="fa-brands fa-square-js fa-xl"></i> BeautifulSoup</button></li>
+									<li><button class="button"><i class="fa-solid fa-book-open"></i> Jupyter</
+								</ul>
+					</div>
+
+					<div class="mr-5 mr-md-0">
+						<img src="./images/adrian.png" class="img-fluid" class="col-12 offset-lg-8 col-lg-4 offset-xl-6 col-xl-3" height="600" width="600">
 					</div>
 				</div>
 			</div>
+			<a href="#projects" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
 		</div>
 			<!-- About Me Section End -->
 
@@ -83,31 +100,46 @@
 
 				<div class="card-deck">
 				  <div class="card">
-				    <img src="https://www.upgrad.com/blog/wp-content/uploads/2020/03/shutterstock_1194000763-768x768.jpg" class="card-img-top" alt="...">
+				    <img src="./images/at_logo_2.png" class="card-img-top" alt="...">
 				    <div class="card-body">
-				      <h5 class="card-title">Product Landing</h5>
-				      <p class="card-text">Being the face of any website, a product landing page has the ability to target customers more than any other aspect through its visuals and various other compelling features. Design product landing page is vital for web developers to test practical skills and how convincing they actually are.</p>
-				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <h5 class="card-title">Web Porfolio</h5>
+				      <p class="card-text">Designed and created a static mobile-friendly portfolio website deployed in GitHub</p>
+				      <a href="#" class="card-link">CODE</a>
+				      <a href="#" class="card-link">LIVE VIEW</a>
 				    </div>
 				  </div>
 				  <div class="card">
-				    <img src="https://www.upgrad.com/blog/wp-content/uploads/2020/03/shutterstock_747294847-768x432.jpg" class="card-img-top" alt="...">
+				    <img src="https://mms.businesswire.com/media/20230322005274/en/761650/22/postman-logo-vert-2018.jpg" class="card-img-top" alt="...">
 				    <div class="card-body">
-				      <h5 class="card-title">Search Engine Result Page</h5>
-				      <p class="card-text">In this project, you have to create a search engine result page that resembles Google’s SERPs. While building this project, you must ensure that the webpage can display at least ten search results (just like Google). Also, you must include the navigation arrow at the bottom of the webpage so that users can switch to the next page.</p>
-				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <h5 class="card-title">E-Commerce API</h5>
+				      <p class="card-text">Developed an E-Commerce API in Node.js runtime environment and using Express.js and Mongoose frameworks. Simulated through Postman API Platform (Course Requirement of Zuitt Coding Bootcamp)</p>
+				      <div class="postman-run-button"
+				      data-postman-action="collection/fork"
+				      data-postman-var-1="26110659-0618157f-55bd-41ff-b6d5-10ba5701869d"
+				      data-postman-collection-url="entityId=26110659-0618157f-55bd-41ff-b6d5-10ba5701869d&entityType=collection&workspaceId=73fea702-8cb8-4f54-957b-0142ffeb75cf"></div>
+				      <script type="text/javascript">
+				        (function (p,o,s,t,m,a,n) {
+				          !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+				          !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
+				            (n = o.createElement("script")),
+				            (n.id = s+t), (n.async = 1), (n.src = m), n
+				          ));
+				        }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+				      </script>
 				    </div>
 				  </div>
 				  <div class="card">
 				    <img src="https://images.ctfassets.net/gg4ddi543f5b/30P63jJxIqb5aJkk4oB7O9/65aa76c675c81d9ac1ea65fc97512bcb/mk-assets-20584440-automatedtasks-26-10-22.png" class="card-img-top" alt="...">
 				    <div class="card-body">
-				      <h5 class="card-title">Giphy with a unique API</h5>
-				      <p class="card-text">This project involves developing a web application that uses search inputs and Giphy API for presenting GIFs on a webpage. This is an excellent beginner-level project wherein you use the Giphy API to recreate the Giphy website. We recommend you to use the Giphy API since you need not request for any API key to use it. Another advantage of using the Giphy API is that you don’t require to worry about configuration while requesting data.</p>
-				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <h5 class="card-title">E-Commerce Web App</h5>
+				      <p class="card-text">Completed a Full-Stack Application using the MERN (MongoDB, Express.js, React, and Node.js) Stack deployed in Vercel</p>
+				      <a href="#" class="card-link">CODE</a>
+				      <a href="#" class="card-link">LIVE VIEW</a>
 				    </div>
 				  </div>
 				</div>
 			</div>
+
 
 			<!-- Contact Me Form Section Start -->
 			<div class="min-vh-100 p-5" id="contact">
