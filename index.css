@@ -182,12 +182,40 @@ body {
 .card {
   background-color: #E5E5E5;
   color: #000000;
+  transition: all .2s ease-in-out;
+}
+
+@media (max-width: 1199px) {
+  .card {
+    width: 80%;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+#card-deck:hover > .card:not(:hover) {
+  filter: blur(4px);
 }
 
 .card-img-top {
   width: 100%;
   height: 15vw;
   object-fit: cover;
+}
+
+@media (max-width: 1199px) {
+  .card-img-top {
+    height: 50vw;
+  }
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 #contact {
